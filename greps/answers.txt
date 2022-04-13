@@ -1,9 +1,9 @@
 # Part 1
 ### a)
-
-
-
-
+grep -P "pika" forest/filescan_00.3 > Pickachu.txt
+grep -P "jigg" forest/filescan_00.3 > Jigglypuff.txt
+grep -P "meow" forest/filescan_00.3 > Meowth.txt
+grep -P "ivys" forest/filescan_00.3 > Ivysaur.txt
 ### b)
 
 
