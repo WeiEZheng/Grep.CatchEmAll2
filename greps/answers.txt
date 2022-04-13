@@ -1,5 +1,12 @@
 # Part 1
 ### a)
+grep -P "beed" forest/filescan_00.1 > Beedrill.txt
+grep -P "blas" forest/filescan_00.1 > Blastoise.txt
+grep -P "bulb" forest/filescan_00.1 > Bulbasaur.txt
+grep -P "butt" forest/filescan_00.1 > Butterfree.txt
+grep -P "char.*izard" forest/filescan_00.2 > Charizard.txt
+grep -P "char.*mander" forest/filescan_00.2 > Charmander.txt
+grep -P "char.*meleon" forest/filescan_00.2 > Charimeleon.txt
 grep -P "pika" forest/filescan_00.3 > Pickachu.txt
 grep -P "jigg" forest/filescan_00.3 > Jigglypuff.txt
 grep -P "meow" forest/filescan_00.3 > Meowth.txt
