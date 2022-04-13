@@ -11,6 +11,10 @@ grep -P "pika" forest/filescan_00.3 > Pickachu.txt
 grep -P "jigg" forest/filescan_00.3 > Jigglypuff.txt
 grep -P "meow" forest/filescan_00.3 > Meowth.txt
 grep -P "ivys" forest/filescan_00.3 > Ivysaur.txt
+grep -P "psyd" forest/filescan_00.4 > Psyduck.txt
+grep -P "squi" forest/filescan_00.4 > Squirtle.txt
+grep -P "venu" forest/filescan_00.4 > Venusaur.txt
+grep -P "wart" forest/filescan_00.4 > Wartortle.txt
 ### b)
 
 
