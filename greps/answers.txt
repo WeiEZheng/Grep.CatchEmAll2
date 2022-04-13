@@ -16,34 +16,61 @@ grep -P "squi" forest/filescan_00.4 > Squirtle.txt
 grep -P "venu" forest/filescan_00.4 > Venusaur.txt
 grep -P "wart" forest/filescan_00.4 > Wartortle.txt
 ### b)
-
-
+completed
 
 ### c)
+File 00.1
+Beedrill
+Blastoise
+Bulbasaur
+Butterfree
 
+File 00.2
+Charizard
+Charmander
+Charimeleon
 
+File 00.3
+Pickachu
+Jigglypuff
+Meowth
+Ivysaur
 
-
-
-
-
-
-
-
-
-
+File 00.4
+Psyduck
+Squirtle
+Venusaur
+Wartortle
 
 # Part 2
 ### a)
+cd captured
 
+ls | wc
+     16      16     220 -
 
-
-
+Ignoring the instruction file, we have 16-1 = 15 pokemons.
 
 
 ### b)
 
+$ for file in *.txt; do wc -l "$file"; done
+40 Beedrill.txt
+38 Blastoise.txt
+30 Bulbasaur.txt
+38 Butterfree.txt
+37 Charimeleon.txt
+40 Charizard.txt
+36 Charmander.txt
+1 instruction.txt
+33 Ivysaur.txt
+34 Jigglypuff.txt
+33 Meowth.txt
+40 Pickachu.txt
+37 Psyduck.txt
+34 Squirtle.txt
+32 Venusaur.txt
+37 Wartortle.txt
 
-
-
+which means Beedrill, Charizaard, and Pikachu with 40 lines are the largest
 
